@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Financial Data Wrangling Workshop Day 1</title>
+    <title>Financial Data Wrangling</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Alexis Solis, MSc." />
-    <meta name="date" content="2022-04-14" />
+    <meta name="author" content="Alexis Solis, CFA" />
     <script src="FWD-slides_files/header-attrs/header-attrs.js"></script>
     <link href="FWD-slides_files/tile-view/tile-view.css" rel="stylesheet" />
     <script src="FWD-slides_files/tile-view/tile-view.js"></script>
@@ -39,18 +38,36 @@
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
 
-# Financial Data Wrangling Workshop Day 1
-## ⚔️ xaringan +<br/>😎 xaringanthemer
-### Alexis Solis, MSc.
-### 2022-04-14
+
+
+
+
+---
+name: xaringan-title
+class: left, middle
+background-image: url(img/brooke-lark-500141-unsplash.jpg)
+background-size: cover
+
+# Meet xaringan
+
+&lt;img src="https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png" alt="Sharingan" width="180" /&gt;
+
+### .fancy[Making slides in R Markdown]
+
+.large[Alison Hill | rstudio::conf | 2022-04-15]
+
+&lt;!-- this ends up being the title slide since seal = FALSE--&gt;
 
 ---
 
 
+## Start
 
 
+
+
+---
 
 
 ## Typography
@@ -201,7 +218,7 @@ cli::cli_alert_success("It worked!")
 ```
 
 ```
-## √ It worked!
+## v It worked!
 ```
 
 --
@@ -253,19 +270,19 @@ tibble::as_tibble(mtcars)
 
 ```
 ## # A tibble: 32 x 11
-##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear
-##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-##  1  21       6  160    110  3.9   2.62  16.5     0     1     4
-##  2  21       6  160    110  3.9   2.88  17.0     0     1     4
-##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4
-##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3
-##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3
-##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3
-##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3
-##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4
-##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4
-## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4
-## # ... with 22 more rows, and 1 more variable: carb &lt;dbl&gt;
+##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
+##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
+##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
+##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
+##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
+##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
+##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
+##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
+##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
+## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
+## # ... with 22 more rows
 ```
 
 ---
@@ -388,8 +405,8 @@ exclude: false
 DT::datatable(head(mtcars), fillContainer = FALSE, options = list(pageLength = 4))
 ```
 
-<div id="htmlwidget-89dc214b5518f1e7541c" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-89dc214b5518f1e7541c">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant"],[21,21,22.8,21.4,18.7,18.1],[6,6,4,6,8,6],[160,160,108,258,360,225],[110,110,93,110,175,105],[3.9,3.9,3.85,3.08,3.15,2.76],[2.62,2.875,2.32,3.215,3.44,3.46],[16.46,17.02,18.61,19.44,17.02,20.22],[0,0,1,1,0,1],[1,1,1,0,0,0],[4,4,4,3,3,3],[4,4,1,1,2,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>wt<\/th>\n      <th>qsec<\/th>\n      <th>vs<\/th>\n      <th>am<\/th>\n      <th>gear<\/th>\n      <th>carb<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":4,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9,10,11]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-ca2b23dcb9bf90efb204" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ca2b23dcb9bf90efb204">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant"],[21,21,22.8,21.4,18.7,18.1],[6,6,4,6,8,6],[160,160,108,258,360,225],[110,110,93,110,175,105],[3.9,3.9,3.85,3.08,3.15,2.76],[2.62,2.875,2.32,3.215,3.44,3.46],[16.46,17.02,18.61,19.44,17.02,20.22],[0,0,1,1,0,1],[1,1,1,0,0,0],[4,4,4,3,3,3],[4,4,1,1,2,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>wt<\/th>\n      <th>qsec<\/th>\n      <th>vs<\/th>\n      <th>am<\/th>\n      <th>gear<\/th>\n      <th>carb<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":4,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9,10,11]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 layout: true
