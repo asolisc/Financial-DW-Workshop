@@ -1,9 +1,9 @@
-WORKSHOP_TITLE
+Wrangling of Financial Data
 ================
 
 ### rstudio::conf 2020
 
-by INSTRUCTOR_NAME
+Workshop by Alexis Solis
 
 -----
 
@@ -15,11 +15,16 @@ breaks at the specified times. Once you are done adding information, you
 can remove these instructions from the README.
 
 -----
-
-:spiral_calendar: January 27 and 28, 2020  
-:alarm_clock:     09:00 - 17:00  
+Sessions:
+:spiral_calendar: Session 1: January 27 and 28, 2023
+:spiral_calendar: Session 2: January 27 and 28, 2023
+:spiral_calendar: Session 3: January 27 and 28, 2023
+:spiral_calendar: Session 4: January 27 and 28, 2023
+:spiral_calendar: Session 5: January 27 and 28, 2023
+:spiral_calendar: Session 6: January 27 and 28, 2023
+:alarm_clock:     09:00 - 14:30  
 :hotel:           \[ADD ROOM\]  
-:writing_hand:    [rstd.io/conf](http://rstd.io/conf)
+:writing_hand:    [Main Website](http://rstd.io/conf)
 
 -----
 
@@ -29,7 +34,11 @@ ABSTRACT
 
 ## Learning objectives
 
-LEARNING_OBJECTIVES
+* Understanding the general framework to work efficiently with financial data.
+
+* Learning to code efficient data pipelines for any project that involves financial data.
+
+* Being able to perform financial analysis of various types.
 
 ## Is this course for me?
 
@@ -56,7 +65,7 @@ RSTUDIO.CLOUD ACCOUNT, ETC.\]
 
 ## Instructor
 
-\[ADD INSTRUCTOR BIO\]
+Alexis Solis is a graduated financial data scientist with a passion for financial data and statistical methods. After completing his MSc he combined his expertise in Finance with his newly acquired knowledge of Data Science tools to create complex data pipelines at a USD $100 Million AUM hedge fund based in Monterrey and conduct proprietary research regarding the local and global Equity markets at GBM. He has worked for several global firms, such as UBS AG, S&P Global, Itaú BBA, and GBM. Alexis holds a BSc in Finance from ITAM and a MSc in Data Science from ITAM.
 
 -----
 
