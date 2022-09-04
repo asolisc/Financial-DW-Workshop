@@ -17,11 +17,17 @@ can remove these instructions from the README.
 -----
 Sessions:
 :spiral_calendar: Session 1: January 27 and 28, 2023
+
 :spiral_calendar: Session 2: January 27 and 28, 2023
+
 :spiral_calendar: Session 3: January 27 and 28, 2023
+
 :spiral_calendar: Session 4: January 27 and 28, 2023
+
 :spiral_calendar: Session 5: January 27 and 28, 2023
+
 :spiral_calendar: Session 6: January 27 and 28, 2023
+
 :alarm_clock:     09:00 - 14:30  
 :hotel:           \[ADD ROOM\]  
 :writing_hand:    [Main Website](http://rstd.io/conf)
@@ -65,7 +71,7 @@ RSTUDIO.CLOUD ACCOUNT, ETC.\]
 
 ## Instructor
 
-Alexis Solis is a graduated financial data scientist with a passion for financial data and statistical methods. After completing his MSc he combined his expertise in Finance with his newly acquired knowledge of Data Science tools to create complex data pipelines at a USD $100 Million AUM hedge fund based in Monterrey and conduct proprietary research regarding the local and global Equity markets at GBM. He has worked for several global firms, such as UBS AG, S&P Global, Itaú BBA, and GBM. Alexis holds a BSc in Finance from ITAM and a MSc in Data Science from ITAM.
+Alexis Solis is a graduated financial data scientist with a passion for financial data and statistical methods. After completing his MSc he combined his expertise in Finance with his recently acquired knowledge of Data Science tools to create complex data pipelines at Lambda Capital, a USD $100 Million AUM hedge fund based in Monterrey, and conduct proprietary research regarding the local and global Equity markets at GBM, a financial services firm based in Mexico City. He has worked for several global firms, such as UBS AG, S&P Global, Itaú BBA, and GBM. Alexis holds a BSc in Finance from ITAM, a MSc in Data Science from ITAM, and is currently a CFA Level III candidate.
 
 -----
 
