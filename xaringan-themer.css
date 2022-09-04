@@ -141,7 +141,7 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
-  background-image: url("cover-image-v1.png");
+  background-image: url("cover-image-v2.png");
   background-size: cover;
 }
 .title-slide .remark-slide-number {
